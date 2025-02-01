@@ -1,0 +1,65 @@
+# Python-related
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.virtualenv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE or editor files (for common editors)
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Log files
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Coverage reports
+.coverage
+*.cover
+*.py,cover
+*.hypothesis/
+
+# Python distributions
+*.egg
+*.egg-info
+dist/
+build/
+eggs/
+
+# Test-related
+nosetests.xml
+coverage.xml
+*.coveragerc
+*.hypothesis/
+test_output/
+
+# Environment variable files
+.env
+.env.local
+.env.*.local
+
+# Voice engine cache (if any)
+*.mp3
+*.wav
+*.ogg
