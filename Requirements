@@ -1,0 +1,37 @@
+# Core libraries
+numpy==1.24.2           # Numerical operations, used for entropy calculations and system updates
+scipy==1.10.1           # Scientific computation and optimization
+pandas==1.6.0           # Data manipulation for feedback systems (optional, depending on use case)
+
+# Voice Interaction
+pyttsx3==2.90           # Text-to-speech engine for output
+speechrecognition==3.10.0 # Speech-to-text for voice input
+
+# Deep learning & machine learning
+tensorflow==2.12.0      # For machine learning models or neural networks (optional for Tyon’s evolution process)
+torch==2.1.0            # PyTorch for neural evolution (optional depending on architecture)
+transformers==4.30.0    # Huggingface transformer models for enhanced NLP tasks
+
+# Self-modifying and dynamic coding (if used in Tyon’s memory control)
+execnet==1.8.0          # For safe execution of self-modifying code (used in modular architecture)
+
+# Memory & Feedback
+joblib==1.2.0           # For memory control and caching models
+h5py==3.8.0             # For storing complex state variables in memory
+
+# Fractal-based entropy learning (if implemented as separate module)
+scikit-learn==1.2.0     # For machine learning based on fractal entropy learning (if needed)
+sympy==1.12.1           # Symbolic mathematics to handle fractal and entropy-related equations
+
+# For audio manipulation (if required)
+pyaudio==0.2.13         # PyAudio for microphone input
+portaudio==19.7.0       # PortAudio dependencies for PyAudio (on some systems)
+
+# Miscellaneous tools (optional, depending on Tyon’s deployment environment)
+flask==2.2.3            # For web-based interfaces (if required)
+fastapi==0.95.0         # For creating real-time APIs or interactions
+uvicorn==0.21.1         # For running FastAPI servers (if Tyon is to be hosted via an API)
+
+# Version control & environment management
+virtualenv==20.16.7     # Environment management, ensuring Tyon’s modules work independently
+pipenv==2023.1.1        # Dependency management if needed for modular projects
