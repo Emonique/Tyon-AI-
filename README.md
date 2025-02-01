@@ -26,11 +26,12 @@ Installation
 Clone the repository and install dependencies:
 
 git clone https://github.com/Emonique/Tyon-AI-.git
+
 cd Tyon-AI
+
 pip install numpy pyttsx3 SpeechRecognition
 
 Usage
-
 Run Tyon in interactive mode:
 
 python tyon.py
